@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="435.226" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-09-06T12:44:42.893232900Z">
+<testcase classname="Check user is able to login" name="user is able to login with valid crediantials" time="38.444">
+<system-out><![CDATA[
+Given login page will open in default browser...............................passed
+When username and password..................................................passed
+Then user login successfully................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check cart functionality" name="check user is able to add product to cart and delete it" time="41.647">
+<system-out><![CDATA[
+Given cart page will be open in default browser.............................passed
+When select product addto cart and delete from cart.........................passed
+Then cart page working successfull..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check favourite functionality" name="check user is able to add product into favourites" time="60.202">
+<system-out><![CDATA[
+Given favourites page should be open in default browser.....................passed
+When click on product and add to favourites.................................passed
+Then product succesfully added to favourites................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check logout" name="login and logut" time="78.432">
+<system-out><![CDATA[
+Given logout open in default browser........................................passed
+When click on login and logout..............................................passed
+Then logout successfully....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check offers" name="offers" time="25.611">
+<system-out><![CDATA[
+Given offers page open in default browser...................................passed
+When click on offers and check..............................................passed
+Then offers will be displayed...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check orders" name="check orders" time="48.099">
+<system-out><![CDATA[
+Given orders page should be open in default browser.........................passed
+When product add to cart and see orders.....................................passed
+Then order placed successfully..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search the products" name="product search - #1.1" time="20.901">
+<system-out><![CDATA[
+Given search page will be open in default browser...........................passed
+When enter multiple search Apple............................................passed
+Then product is searching succesfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search the products" name="product search - #1.2" time="18.525">
+<system-out><![CDATA[
+Given search page will be open in default browser...........................passed
+When enter multiple search samsung..........................................passed
+Then product is searching succesfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search the products" name="product search - #1.3" time="18.536">
+<system-out><![CDATA[
+Given search page will be open in default browser...........................passed
+When enter multiple search Google...........................................passed
+Then product is searching succesfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search the products" name="product search - #1.4" time="18.279">
+<system-out><![CDATA[
+Given search page will be open in default browser...........................passed
+When enter multiple search OnePlus..........................................passed
+Then product is searching succesfully.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to enter the address" name="check after checkout and enter address" time="31.749">
+<system-out><![CDATA[
+Given shipping address is open in default browser...........................passed
+When open checkout and enter shipping address...............................passed
+Then successfully added address.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check subscribe email" name="subscribe email" time="17.606">
+<system-out><![CDATA[
+Given subscribe email in default browser....................................passed
+When enter email address....................................................passed
+Then email subscribed succesfully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check vendor functionality" name="check user is able to select brands" time="16.855">
+<system-out><![CDATA[
+Given vendor page should be open in default browser.........................passed
+When select vendor and list products........................................passed
+Then selected products displayed successfully...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

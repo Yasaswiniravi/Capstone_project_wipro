@@ -1,0 +1,12 @@
+bstack_def\login.class
+bstack_def\orders.class
+bstack_def\offers.class
+bstack_def\logout.class
+bstack_def\Pageclass.class
+bstack_def\search.class
+bstack_def\TestRunner.class
+bstack_def\cart.class
+bstack_def\favourites.class
+bstack_def\subscribeemail.class
+bstack_def\shippingaddress.class
+bstack_def\vendors.class
